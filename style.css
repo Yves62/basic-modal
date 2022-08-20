@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  min-height: 100vh;
+}
+
+.container {
+  width: 90%;
+  margin: 150px auto;
+  text-align: center;
+}
+
+.container button {
+  margin-bottom: 60px;
+  padding: 10px 15px;
+  background-color: crimson;
+  color: white;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+}
+
+.container p {
+    position: relative;
+  width: 60%;
+  border: 1px solid black;
+  padding: 10px;
+  margin: 0 auto;
+  background-color: rgb(67, 104, 253);
+  color: white;
+  border-radius: 10px;
+  display: none;
+}
+.container p.active {
+    display: block;
+}
