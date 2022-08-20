@@ -6,6 +6,7 @@
 }
 body {
   min-height: 100vh;
+  background-color: #f1f1f1;
 }
 
 .container {
@@ -25,7 +26,6 @@ body {
 }
 
 .container p {
-    position: relative;
   width: 60%;
   border: 1px solid black;
   padding: 10px;
@@ -36,5 +36,5 @@ body {
   display: none;
 }
 .container p.active {
-    display: block;
+  display: block;
 }
